@@ -76,7 +76,7 @@ body {
     position: relative;
     color:black;
     width: 80%;
-    margin: auto;
+    margin: 10% auto;
     display: flex;
     column-gap: 5%;
  } 
@@ -197,10 +197,10 @@ body {
       margin: 0px;
     }
     #myVideo{
-      height: 60%;
+      height: 90%;
    }
    .overlay{
-    height: 60%;
+    height: 90%;
    }
     .aboutme{
       margin-top: 20%;

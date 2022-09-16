@@ -1,0 +1,21 @@
+{
+  "name": "webdevportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "tailwindcss -i style.css -o ./dist/output.css",
+    "watch": "tailwindcss -i style.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adedamola-Adeyemo/WebDevPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adedamola-Adeyemo/WebDevPortfolio/issues"
+  },
+  "homepage": "https://github.com/Adedamola-Adeyemo/WebDevPortfolio#readme"
+}

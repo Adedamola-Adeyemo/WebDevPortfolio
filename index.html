@@ -16,87 +16,90 @@
 
 <body>
   <!--navbar-->
-  <nav class="relative mx-auto bg-black p-6">
-    <div class="flex items-center space-x-6 justify-between">
+  <nav class="relative mx-auto bg-slate-900 p-6">
+    <div class="flex flex-row items-center text-white justify-center md: justify-between mx-24">
+      <div class="hidden md:block text-left text-yellow-200">
+        Adedamola
+      </div>
       <!--menu items-->
+      <div class="flex flex-row items-center space-x-6 ml-12 md:items-right mx-0 ">
         <a href="index.html">Home</a>
         <a href="contact.html">Contact</a>
+      </div>
     </div>
   </nav>
   <main>
-    <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
-      <div class="relative z-30 p-5 text-2xl text-white text-center bg-black bg-opacity-50 rounded-xl">
-        Welcome to my portfolio site!
-        Please scroll down...
+    <header class="relative flex items-center justify-center h-screen bg-gray-900 overflow-hidden">
+      <div class="flex flex-col p-5 md:flex-row text-left">
+        <div class="flex flex-col space-y-6 justify-center text-white text-center md:text-left">
+          <p class="text-lg">
+            Hello, my name is
+          </p>
+          <p class="text-2xl md:text-[70px]">
+           <b> Adedamola Adeyemo </b>
+          </p>
+          <p class="text-1xl text-yellow-200 md:text-[35px]">
+            A Web Developer
+          </p>
+        </div>
+        <img src="img/1970-01-20-120443251-removebg-preview.png" class="rounded-full ">
       </div>
-      <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-        <source src="img/pexels-pavel-danilyuk-5495840.mp4" type="video/mp4" />Your browser does not support the video tag.
-      </video>
+      
     </header>
       
-    <section class="p-5">
-      <div class="p-5 text-2xl text-black text-center mb-12"> <b>Meet Me</b> </div>
-      <hr>
-      <h1  class="p-5 text-2xl text-black text-center"> <b>Adedamola Adeyemo</b></h1>
-      <p  class="p-1 text-1xl text-grey text-center">Web Developer</p>
-      <div class="container p-5 mx-auto flex flex-col-reverse items-center justify-between mt-12 mb-12 md:flex-row">
-        <div class="p-5">
-          <h2 class="text 1xl text-black mb-4"><b>Career Objective</b></h2>
-          <p class="w-auto">Result-driven web developer with 2 years experience creating websites and web applications to support corporate operations and boost sales. Both front-end and back-end technologies are things I'm adept at. I can significantly contribute to the marketing efforts of any team that I am on because I have good analytical abilities and a working knowledge of digital marketing. </p>
-        </div>
-        <div id ="intro">
-          <img src="img/1970-01-20-120443251-removebg-preview.png" class="w-auto">
-        </div>
+    <section class="p-5 bg-red-100">
+      <div class="p-5 text-2xl text-black text-center mt-12 mb-12 md:text-[40px]"> <b>About Me</b> </div>
+      <div class="container mx-auto mt-12 mb-12 ">
+          <p class="p-5 w-auto text-center text-lg md:text-[20px] ">Result-driven web developer with 2 years experience creating websites and web applications to support corporate operations and boost sales. Both front-end and back-end technologies are things I'm adept at. I can significantly contribute to the marketing efforts of any team that I am on because I have good analytical abilities and a working knowledge of digital marketing. </p>
       </div>
     </section>
     
-    <div class="container p-5 mx-auto" style="text-align: center;">
-        <h2 id="pro" class="p-5 text-2xl text-black text-center"> <b>My Projects</b> </h2>
-        <hr>
-        <div class="p-5 text-1xl flex flex-col items-center space-x-6 justify-between md:flex-row">
+    <div class="p-5 mx-auto bg-yellow-400" style="text-align: center;">
+        <h2 id="pro" class="p-5 text-2xl text-black text-center mt-12 mb-12 md:text-[40px]"> <b>My Projects</b> </h2>
+        <div class=" container mx-auto p-5 text-1xl flex flex-col items-center justify-around md:flex-row">
             <div class="mb-12 md:mb-2">
-                <h2 class="p-5">Professional Website</h2>
+                <h2 class="p-5 text-lg md:text-[20px]">Professional Website</h2>
                 <img src="img/ts_home.jpg" width="420px" height="350px"><br>
-                <button class="p-5 text-1xl bg-red-500 rounded-xl" type='button'><a href="http://techsteamhub.com/">See Project</a></button>
+                <button class="p-5 text-1xl bg-slate-900 rounded-xl" type='button'><a href="http://techsteamhub.com/">See Project</a></button>
             </div>
             <div class="mb-12 md:mb-2">
-                <h2 class="p-5">Ecommerce Website</h2>
+                <h2 class="p-5 text-lg md:text-[20px]">Ecommerce Website</h2>
                 <img src="img/romaris_home.jpg" width="420px" height="350px"><br>
-                <button class="p-5 text-1xl bg-red-500 rounded-xl" type='button'><a href="http://romariscollections.com.ng/wp/">See Project</a></button>
+                <button class="p-5 text-1xl bg-slate-900 rounded-xl" type='button'><a href="http://romariscollections.com.ng/wp/">See Project</a></button>
             </div>
            
         </div>
         
-        <div class="p-5 text-1xl flex flex-col items-center space-x-6 justify-between md:flex-row">
+        <div class="container mx-auto p-5 text-1xl flex flex-col items-center justify-around md:flex-row mt-12">
             <div class="mb-12 md:mb-2">
-                <h2 class="p-5">Landing Page</h2>
+                <h2 class="p-5 text-lg md:text-[20px]">Landing Page</h2>
                 <img src="img/landing_page.jpg" width="420px" height="350px"><br>
-                <button class="p-5 text-1xl bg-red-500 rounded-xl" type='button'><a href="https://adedamola-adeyemo.github.io/media-query/">See Project</a></button>
+                <button class="p-5 text-1xl bg-slate-900 rounded-xl" type='button'><a href="https://adedamola-adeyemo.github.io/media-query/">See Project</a></button>
             </div>
             <div class="mb-12 md:mb-2">
-                <h2 class="p-5">Sales Page</h2>
+                <h2 class="p-5 text-lg md:text-[20px]">Sales Page</h2>
                 <img src="img/sales_page.jpg" width="420px" height="350px"><br>
-                <button class="p-5 text-1xl bg-red-500 rounded-xl" type='button'><a href="https://touchpointdc.com/ad-fixing/">See Project</a></button>
+                <button class="p-5 text-1xl bg-slate-900 rounded-xl" type='button'><a href="https://touchpointdc.com/ad-fixing/">See Project</a></button>
             </div>
         </div>
        
-        <div class="p-5 text-1xl flex flex-col items-center space-x-6 justify-between md:flex-row">
+        <div class="container mx-auto p-5 text-1xl flex flex-col items-center justify-around md:flex-row mt-12 mb-12">
             <div class="mb-12 md:mb-2">
-                <h2 class="p-5">Real Estate Webpage</h2>
-                <img src="img/real_estate.jpg" width="420px" height="350px"><br>
-                <button class="p-5 text-1xl bg-red-500 rounded-xl" type='button'><a href="https://zetelimited.com/property/">See Project</a></button>
+                <h2 class="p-5 mb-8 text-lg md:text-[20px]">Real Estate Webpage</h2>
+                <img src="img/real_estate.jpg" width="420px" height="350px" ><br>
+                <button class="p-5 text-1xl bg-slate-900 rounded-xl" type='button'><a href="https://zetelimited.com/property/">See Project</a></button>
             </div>
             <div class="mb-12 md:mb-2">
-                <h2 class="p-5">JS Based Game</h2>
+                <h2 class="p-5 text-lg md:text-[20px]">JS Based Game</h2>
                 <img src="img/js_game.jpg" width="420px" height="350px"><br>
-                <button class="p-5 text-1xl bg-red-500 rounded-xl" type='button'><a href="https://adedamola-adeyemo.github.io/wordCookieGameJS/">See Project</a></button>
+                <button class="p-5 text-1xl bg-slate-900 rounded-xl" type='button'><a href="https://adedamola-adeyemo.github.io/wordCookieGameJS/">See Project</a></button>
             </div>
         </div>
     </div>
     
   </main>
-  <footer class ="py-10 px-5 mt-12 text-2xl text-white bg-black flex flex-col items-center justify-around">
-    <button class="p-5 mx-auto mt-12 mb-12 text-1xl bg-red-500 rounded-xl" type="button"><a href="http://wa.me/2348139345956">Click to contact Me</a></button>
+  <footer class ="py-10 px-5 text-2xl text-white bg-slate-900 flex flex-col items-center justify-around">
+    <button class="p-5 mx-auto mt-12 mb-12 text-1xl bg-white rounded-xl" type="button"><a href="http://wa.me/2348139345956" class="text-black">Click to contact Me</a></button>
   </footer>
   <script src="script.js"></script>
 </body>

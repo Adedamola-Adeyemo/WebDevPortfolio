@@ -820,6 +820,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-slate-900 {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:mb-2 {
     margin-bottom: 0.5rem;
